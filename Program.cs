@@ -120,7 +120,7 @@ namespace OrbitalShell.Module.DoomFireAlgo
             void start()
             {
                 o.ClearScreen();
-                o.HideCur();
+                try { o.HideCur(); } catch (Exception ex) { o.Errorln(ex.Message); }
                 createPixelsStructure();
                 createSource();
             }
