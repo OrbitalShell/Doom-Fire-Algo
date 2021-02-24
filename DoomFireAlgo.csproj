@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
 	<TargetFramework>net5.0</TargetFramework>
@@ -15,8 +15,8 @@
     <Product>doom fire algorithm C# ANSI version orbital shell module</Product>
     <Description>a simple module for orbital shell that add a command running the famous doom fire algorithm (C# ANSI version)</Description>    
 	<Copyright>(c) Orbital Shell 2020</Copyright>
-    <Version>1.1.2</Version>
-    <InformationalVersion>1.1.2</InformationalVersion>
+    <Version>1.1.3</Version>
+    <InformationalVersion>1.1.3</InformationalVersion>
     
 	<PackageReleaseNotes>make within new-module on 2 fev 21</PackageReleaseNotes>
     <ApplicationIcon>assets\robotazteque.ico</ApplicationIcon>
@@ -59,12 +59,11 @@
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</None>	
   </ItemGroup>
-	
 
-  <ItemGroup>
-	  <PackageReference Include="orbitalshell-kernel" Version="1.0.6">
+    <ItemGroup>
+      <PackageReference Include="orbitalshell-kernel" Version="1.0.7">
 		  <ExcludeAssets>contentfiles</ExcludeAssets>
 	  </PackageReference>
-  </ItemGroup>
+    </ItemGroup>
 
 </Project>

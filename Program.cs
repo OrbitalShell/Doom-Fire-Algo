@@ -137,7 +137,8 @@ namespace OrbitalShell.Module.DoomFireAlgo
                 render();
                 sw1.Stop();
                 if (!noText) o.Echoln($"(rdc)Doom fire algo - {Math.Round(1d / (sw0.ElapsedMilliseconds+sw1.ElapsedMilliseconds) * 1000,2)} fps");
-                end = context.CommandLineProcessor.CancellationTokenSource.IsCancellationRequested;
+                //end = context.CommandLineProcessor.CancellationTokenSource.IsCancellationRequested;
+                end = context.CommandLineProcessor.IsCancellationRequested;
                 if (slow>0) Thread.Sleep(slow);
             }
 
