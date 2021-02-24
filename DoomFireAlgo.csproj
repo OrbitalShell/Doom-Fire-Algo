@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	<TargetFramework>netcoreapp3.1</TargetFramework>
+	<TargetFramework>net5.0</TargetFramework>
     
 	<RootNamespace>OrbitalShell.Module.DoomFireAlgo</RootNamespace>
     <AssemblyName>OrbitalShell.Module.DoomFireAlgo</AssemblyName>
@@ -15,8 +15,8 @@
     <Product>doom fire algorithm C# ANSI version orbital shell module</Product>
     <Description>a simple module for orbital shell that add a command running the famous doom fire algorithm (C# ANSI version)</Description>    
 	<Copyright>(c) Orbital Shell 2020</Copyright>
-    <Version>1.1.1</Version>
-    <InformationalVersion>1.1.1</InformationalVersion>
+    <Version>1.1.2</Version>
+    <InformationalVersion>1.1.2</InformationalVersion>
     
 	<PackageReleaseNotes>make within new-module on 2 fev 21</PackageReleaseNotes>
     <ApplicationIcon>assets\robotazteque.ico</ApplicationIcon>
