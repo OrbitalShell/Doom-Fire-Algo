@@ -22,6 +22,7 @@ namespace OrbitalShell.Module.DoomFireAlgo
         #region Command
 
         [Command("runs an ASCII Doom Fire Algorithm that output an animation into the console")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822:put static", Justification = "<it is a command, however stateless it must no be static>")]
         public CommandVoidResult DoomFireAlgo(
             CommandEvaluationContext context,
             [Option("w", "width", "width in characters", true, true)] int width = 100,
