@@ -1,7 +1,11 @@
 # Doom Fire Algorithm
 Module for Orbital Shell
 
-a simple module for orbital shell that add a command running the famous doom fire algorithm (C# ANSI version)
+A simple module for orbital shell that add a command running the famous doom fire algorithm (C# ANSI version).
+
+<img src="https://github.com/OrbitalShell/Doom-Fire-Algo/blob/main/assets/erebus.jpg" align="left">
+
+Doom is a first-person shooter video game series developed by id Software. The first title in the series, Doom, was released as shareware on PC in December 1993. DOOM 1.0, released in 1993, is the first full release, that changed the world forever. The series is considered to have popularized the first-person shooter genre thanks in particular to its graphics, its game system, its unprecedented multiplayer mode and its economic model (shareware distribution) but also thanks to the controversies over violence. of the video games he started. Doom has thus strongly influenced the video game industry, its game system having been used in many titles long qualified as "Doom-like". The three episodes of the series have generally been well received by the trade press and have achieved significant commercial success, helping to make id Software a major player in the video game industry. The shareware version of Doom has been downloaded over thirty million times, with the first two games each selling over one million copies. For its part, Doom 3 has sold more than 3.5 million copies.
 
 [![.NET](https://github.com/franck-gaspoz/Doom-Fire-Algo/actions/workflows/dotnet.yml/badge.svg)](https://github.com/franck-gaspoz/Doom-Fire-Algo/actions/workflows/dotnet.yml)
 ![last commit](https://img.shields.io/github/last-commit/franck-gaspoz/Doom-Fire-Algo?style=plastic)
