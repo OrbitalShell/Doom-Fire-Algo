@@ -42,6 +42,10 @@ play with parameters:
 
 ### Preview
 
+```shell
+> doom-fire-algo -h 35 -w 100 -s 20
+```
+
 ![preview doom-fire-algo](assets/doom-fire-algo2.gif)
 <br>*a debug view from visual studio debuger (conhost)*
 
